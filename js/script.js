@@ -82,10 +82,6 @@ document.getElementById("jobs-container").addEventListener("click", function(eve
 })
 
 function updateCount(){
-    // totalCount.innerText = allContainer.children.length;
-    // interviewCount.innerText = interviewContainer.children.length;
-    // rejectedCount.innerText = rejectedContainer.children.length;
-
     const counts = {
         all: allContainer.children.length,
         interview: interviewContainer.children.length,
